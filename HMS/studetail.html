@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student search</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center"><!--center align the login-->
+                <div class="card w-25 my-auto">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>STUDENT SEARCH</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="find.php" method="post"><!--after clicking log in the page move to the action-->
+                            <div class="form-group">
+                                <label for="regno">ENTER STUDENT REGISTER NUMBER</label> <!--while clicking the label it calls the FOR id here for id matches with the input so it opens input-->
+                                <input type="regno" id="regno" class="form-control" name="regno" required/><!--input is stored in name-->
+                            </div>
+                            <input type="submit" class="btn btn-primary w-100" value="FIND" name="">
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mess poll</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="card">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>MESS POLL</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="messpoll.php" method="post">
+                            <div class="form-group">
+                                <label>Do you wish to have lunch at mess</label><br>
+                                <select name="lunch" id="lunch">
+                                    <option value="yes">YES</option>
+                                    <option value="no">NO</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Do you wish to have snacks at mess</label><br>
+                                <select name="snacks" id="snacks">
+                                    <option value="yes">YES</option>
+                                    <option value="no">NO</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Do you wish to have dinner at mess</label><br>
+                                <select name="dinner" id="dinner">
+                                    <option value="yes">YES</option>
+                                    <option value="no">NO</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Do you wish to have tommorow morhing breakfast at mess</label><br>
+                                <select name="bf" id="bf">
+                                    <option value="yes">YES</option>
+                                    <option value="no">NO</option>
+                                </select>
+                            </div>
+                            <input type="submit" class="btn btn-primary w-50" value="submit">
+                        </form>
+                    </div>
+                    <div class="card-footer text-right">
+                        <small>
+                            &copy;K.G.F
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

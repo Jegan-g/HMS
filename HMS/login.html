@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            login page
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <style>
+            body {
+              background-image: url('img/logbg.jpg');
+            }
+        </style> 
+        <div class="container">
+            <div class="row justify-content-center"><!--center align the login-->
+                <div class="card w-25 my-auto">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h2>LOGIN FORM</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="login.php" method="post"><!--after clicking log in the page move to the action-->
+                            <div class="form-group">
+                                <label for="email">Email</label> <!--while clicking the label it calls the FOR id here for id matches with the input so it opens input-->
+                                <input type="email" id="email" class="form-control" name="email" required/><!--input is stored in name-->
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" class="form-control" name="password" required/>
+                            </div>
+                            <input type="submit" class="btn btn-primary w-100" value="LOGIN" name="">
+                        </form>
+                    </div>
+                    <div class="card-footer text-right">
+                        <small>
+                            &copy;K.G.F
+                        </small>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>

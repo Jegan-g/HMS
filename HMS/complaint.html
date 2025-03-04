@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Suggestion box
+        </title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <center>
+            <div class="container">
+                <div class="card w-30 my-auto">
+                    <div class="card-header">
+                        <h5>Complaint Box</h5>
+                    </div>
+                    <div class="card-body">
+                        <form action="complai.php" method="post">
+                            <div class="form-group">
+                                <label>Area of Complaint</label>
+                                <select name="aoc" id="aoc">
+                                    <option value="Electricity">Electricity</option>
+                                    <option value="Mess">Mess</option>
+                                    <option value="Room">Room</option>
+                                    <option value="Bathroom">Bathroom</option>
+                                    <option value="WIFI">WIFI</option>
+                                    <option value="Water">Water</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>Block</label>
+                                <select name="b" id="b">
+                                    <option value="A">A-Block</option>
+                                    <option value="B">B-Block</option>
+                                    <option value="C">C-Block</option>
+                                    <option value="D">D-Block</option>
+                                    <option value="E">E-Block</option>
+                                    <option value="F">F-Block</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment">Comment:</label>
+                                <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-primary w-10" value="SUBMIT" name="">
+                        </form>
+                    </div>
+                    <div class="card-footer text-right">
+                        <small>
+                            &copy;K.G.F
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </center>
+    </body>
+</html>
