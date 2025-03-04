@@ -17,7 +17,6 @@
         $stmt = $conn->prepare("insert into messpoll(lunch,snacks,dinner,bf) values(?,?,?,?)");
         $stmt->bind_param("ssss",$lunch,$snacks,$dinner,$bf);
         $stmt->execute();
-        echo "Response polled";
         $stmt->close();
         $conn->close();
     }

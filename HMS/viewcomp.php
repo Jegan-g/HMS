@@ -11,8 +11,15 @@
             Complaints
         </title>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <style>
+            body {
+              background-image: url('IMAGES/bg.png');
+            }
+            
+            tr:hover {background-color: coral;}
+        </style>
     </head>
-    <body style="background-color: lightgray;">
+    <body class="bg-dark">
         <div class="container">
             <div class="row mt-5">
                 <div class="col">

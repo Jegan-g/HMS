@@ -1,87 +1,44 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Registration page
-        </title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        </head>
-    <body>
-        <style>
-            body {
-              background-image: url('img/regbg.webp');
-            }
-        </style> 
-        <div class="container">
-            <div class="row col-md-12 col-md-offset-6">
-                <div class="card">
-                    <div class="card-header bg-primary text-white">
-                        <h1>Registration form</h1>
-                    </div>
-                    <div class="card-body">
-                        <form action="connect.php" method="post">
-                            <div class="form-group">
-                                <label for="fn">First Name</label>
-                                <input type="text" id="fn" name="fn" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="ln">Last Name</label>
-                                <input type="text" id="ln" name="ln" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="fn">Father's name</label>
-                                <input type="text" id="fn" name="fn" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="mn">Mother's name</label>
-                                <input type="text" id="mn" name="mn" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Department</label><br>
-                                <select name="dep" id="dep">
-                                    <option value="E.C.E">E.C.E</option>
-                                    <option value="E.E.E">E.E.E</option>
-                                    <option value="C.S">C.S</option>
-                                    <option value="I.T">I.T</option>
-                                    <option value="CIVIL">CIVIL</option>
-                                    <option value="MECHNICAL">MECH</option>
-                                  </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="regno">Register number</label>
-                                <input type="text" id="regno" name="regno" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label>Year of study</label><br>
-                                <select name="yos" id="yos">
-                                    <option value="Ist year">I</option>
-                                    <option value="IInd year">II</option>
-                                    <option value="IIIrd year">III</option>
-                                    <option value="IVth year">IV</option>
-                                  </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="text" id="email" name="email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="pn">Phone number</label>
-                                <input type="text" id="pn" name="pn" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="ps">Password</label>
-                                <input type="text" id="ps" name="ps" class="form-control">
-                            </div>
-                            <input type="submit" class="btn btn-primary w-100" value="Register">
-                        </form>    
-                    </div>
-                    <div class="card-footer text-right">
-                        <small>
-                            &copy;K.G.F
-                        </small>
-                    </div>
-                </div>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+    <style>
+      .i{
+        margin-top: 12rem;
+      }
+    </style>
+</head>
+  <style>
+    body
+    {
+       background-image:url('IMAGES/bg.png');
+    background-repeat:no repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    }
+</style>
+  <center>
+    <h1>Hostel Management System</h1>
+    <div class="i">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Administrator</h5>
+          <a href="login.html" class="btn btn-primary">Log in</a>
         </div>
-    </body>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Student</h5>
+          <a href="studentlogin.html" class="btn btn-primary">Log in</a>
+        </div>
+    </div>
+    
+  </div>
+  </center>
+</body>
 </html>
